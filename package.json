@@ -1,0 +1,20 @@
+{
+  "name": "try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckypataudi/secondproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckypataudi/secondproject/issues"
+  },
+  "homepage": "https://github.com/luckypataudi/secondproject#readme"
+}
