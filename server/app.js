@@ -34,6 +34,11 @@ app.get('/getAll', (request, response) => {
         .catch(err => console.log(err));
 })
 
+app.get('/client', (request, response) => {
+    console.log("client");
+    location.href = "../client";
+})
+
 //update
 app.patch('/update', (request, response) => {
     const { id, name } = request.body;

@@ -1,4 +1,4 @@
-const URL = URL+'';
+const URL = 'https://testprojectnode.herokuapp.com/';
 
 document.addEventListener('DOMContentLoaded', function () {
     fetch(URL+'getAll')
